@@ -1,0 +1,284 @@
+.modal-container {
+    border: 2px solid green; 
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 50%;
+    left: 35%;
+    position: fixed
+}
+
+.modal-text {
+   text-align: center;
+    padding: 50px;
+    font-size: larger;
+    margin-top: -10px;
+}
+
+.modal-button {
+    margin-bottom: 20px;
+    margin-top: -25px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(78, 195, 78);
+    color: white;
+    border: 0cap;
+    font-size: 15px;
+}
+
+.modal-button:hover {
+    background-color: darkcyan;
+}
+/* The ABOVE styles are for Positioning...  */
+
+.main-header {
+    display: flex;
+    background-color: rgb(9, 165, 14);
+    color: white;
+    justify-content:space-between;
+    height: 50px;
+
+}
+
+.nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* gap: 20px; */
+    font-size: larger; 
+}
+
+.nav-left-logo {
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* gap: 30px; */
+    font-size: larger;
+}
+
+
+.nav-left-item {
+    padding: 15px;
+
+}
+
+.nav-right-item {
+    padding: 12px;
+}
+
+.nav-right span {
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    padding-top: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.trulia-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: lightgray;
+    padding: 15px;
+    
+
+}
+
+
+.trulia-grid-item {
+    display: flex; 
+    flex-direction: column; 
+    background-color: white;
+    border-radius: 5px;
+    width: 390px;
+    height: 350px;
+    /* max-width: 30%; */
+
+    /* display: block; */
+    /* same as display: grid in .trulia-grid??*/
+}
+
+.tulia-house-image {
+    background-size: cover;
+    background-position: center center;
+    width: 100px;
+    height: 160px;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+   
+}
+
+.image-1 {
+    width: 390px;
+    height: 180px;
+}
+
+.image-2 {
+    width: 390px;
+    height: 180px;
+}
+
+.image-3 {
+    width: 390px;
+    height: 180px;
+}
+
+.image-4 {
+    width: 390px;
+    height: 180px;
+}
+
+.image-5 {
+    width: 390px;
+    height: 180px;
+}
+
+.image-6 {
+    width: 390px;
+    height: 180px;
+}
+
+.image-7 {
+    width: 390px;
+    height: 180px;
+}
+
+.image-8 {
+    width: 390px;
+    height: 180px;
+}
+
+.image-9 {
+    width: 390px;
+    height: 180px;
+}
+
+.image-10 {
+    width: 390px;
+    height: 180px;
+}
+
+.image-11 {
+    width: 390px;
+    height: 180px;
+}
+
+.image-12 {
+    width: 390px;
+    height: 180px;
+}
+
+.trulia-house-price {
+    margin-left: 10px;
+}
+
+.trulia-house-stats {
+    margin-left: 10px;
+    color: gray;
+}
+
+.trulia-house-address {
+    margin-left: 10px;
+    color: gray;
+}
+
+.trulia-house-location {
+    margin-left: 10px;
+    color: gray;
+}
+
+.page-navigation ul {
+    list-style: none;
+}
+
+.page-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-ul {
+    display: flex;
+}
+
+.page-ul li {
+    padding: 15px;
+    margin-bottom: -50px;
+    color: green;
+    /* why the color won't change??? */
+}
+
+.page-results p {
+    color: gray;
+}
+
+.location-site {
+    display: flex;
+}
+
+.location-site li {
+    padding: 10px;
+    margin-top: -50px;
+}
+
+.real-estate-insight {
+    margin: 30px;
+    margin-top: -20px;
+}
+
+.insight-text {
+    margin-top: -10px;
+    margin-left: 70px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer-ul {
+    display: flex;
+    background-color: rgb(75, 73, 97);
+    color: white;
+    height: 70px;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center; 
+    text-align: left;
+    padding: 10px;
+    gap: 20px;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.copyright {
+    background-color: rgb(75, 73, 97);
+    color: white;
+    margin-top: -16px;
+}
+
+.copyright-p {
+    margin-left: -30px;
+    font-size: 10px;
+}

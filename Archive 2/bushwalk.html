@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bushwalking</title>
+    <link rel="stylesheet" href="bushwalk.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,400i|Merriweather|Oswald"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <script src="bushwalk.js" defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/07/hiking-logo-design.jpg"
+            alt="logo"
+            width="80"
+            h
+          />BushWalking</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li> -->
+
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Advanture Inspiration</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="about-button"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu" id="about-menu">
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                <li><a class="dropdown-item" href="#">We are Hiring</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Privacy Policy</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Advanture Inspiration</a>
+            </li> -->
+
+            <!-- <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Advanture Inspiration</a>
+            </li>
+            </li> -->
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="inspiration-button"
+              >
+                Advanture Inspiration
+              </a>
+              <ul class="dropdown-menu" id="inspiration-menu">
+                <li><a class="dropdown-item" href="#">Lysterfield Park</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Kinglake National Park</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Mount Donna Buang and Mount Victoria Hiking Triail</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Point Nepean National Park</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Cathedral Range State Park</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Cape Schanck</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              required
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row mt-4" style="height: 80px">
+        <div class="col-12" style="background-color: rgb(123, 166, 123)">
+          The Bushwalk
+        </div>
+      </div>
+
+      <div class="row gap-4 mt-4" style="height: 660px">
+        <div class="col-8">Plan Your Next Vacation...</div>
+        <div class="col">
+          <!-- start a new div inside to split this collumn into two rows. -->
+          <div class="row gap-4" style="height: 330px">
+            <div class="col-12-profile">
+              <br />
+              <div class="profile-container">
+                <img
+                  class="profile-img"
+                  src="profile.jpg1.png"
+                  style="height: 150px"
+                />
+                <p class="profile-text">
+                  I am Cici, an Australian nature lover, hiker, and outdoor
+                  adventure traveller. Need an adventure break?
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12-signup">
+              
+              <form>
+                
+                <fieldset class="sign-up-container">
+                  <legend>JOIN US</legend>
+                  <label></label>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    type="text"
+                    required
+                    id="full-name"
+                    placeholder="Your name here"
+                  />
+                  <label for="email">Email</label>
+                  <input
+                    type="text"
+                    required
+                    id="email"
+                    requried
+                    placeholder="name@email.com"
+                  />
+                  <label for="password">Set Up New Password</label>
+                  <input
+                    type="text"
+                    required
+                    id="password"
+                    minlength="8"
+                    placeholder="10 characters please"
+                  />
+                  <input class="sign-up-buttom" type="submit" value="Sign Up" />
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-xs-12 col-md-4 col-lg-2 bg-success">Sidebar 1</div>
+        <div class="col-xs-12 col-md col-lg bg-warning">Main Content</div>
+        <div class="col-xs-12 col-md-12 col-lg-2 bg-success">sidebar 2</div> -->
+      </div>
+
+      <div class="row mt-4" style="height: 350px">
+        <div
+          class="col-xs-12 col-md-6 col-lg-4"
+          id="site-1"
+          style="background-color: goldenrod"
+        >
+          Lysterfield Park
+        </div>
+        <div
+          class="col-xs-12 col-md col-lg-4"
+          id="site-2"
+          style="background-color: yellowgreen"
+        >
+          Kinglake National Park
+        </div>
+        <div
+          class="col-xs-12 col-md-6 col-lg-4"
+          id="site-3"
+          style="background-color: darkcyan"
+        >
+          Mount Donna Buang and Mount Victoria Hiking Triail
+        </div>
+      </div>
+      <!-- how to put gap between the columns??? Tyied gx & gy didn't work... -->
+
+      <div class="row mt-4" style="height: 350px">
+        <div
+          class="col-xs-12 col-md-6 col-lg-4"
+          id="site-4"
+          style="background-color: goldenrod"
+        >
+          Point Nepean National Park
+        </div>
+        <div
+          class="col-xs-12 col-md col-lg-4"
+          id="site-5"
+          style="background-color: yellowgreen"
+        >
+          Cathedral Range State Park
+        </div>
+        <div
+          class="col-xs-12 col-md-6 col-lg-4"
+          id="site-6"
+          stylid="site-4"
+          e="background-color: darkcyan"
+        >
+          Cape Schanck
+        </div>
+      </div>
+
+      <!-- <div class="container-display text-center">
+        <div class="row mt-4" style="height: 300px;">
+          <div class="col-xs-12 col-md-6 col-lg-2" style="background-color: goldenrod;">.col-6 .col-sm-4</div>
+          <div class="col-xs-12 col-md-6 col-lg-2" style="background-color: yellowgreen;">.col-6 .col-sm-4</div>
+          <div class="col-xs-12 col-md-6 col-lg-2" style="background-color: darkcyan;">.col-6 .col-sm-4</div> -->
+      <!-- Force next columns to break to new line at md breakpoint and up -->
+      <!-- <div class="w-100"></div>
+          <div class="col-xs-12 col-md-6 col-lg-2" style="background-color: darkcyan;">.col-6 .col-sm-4</div>
+          <div class="col-xs-12 col-md-6 col-lg-2" style="background-color: yellow;">.col-6 .col-sm-4</div>
+          <div class="col-xs-12 col-md-6 col-lg-2" style="background-color: lightcoral;">.col-6 .col-sm-4</div>
+        </div>
+      </div> -->
+
+      <!-- <div class="grid-boxes text-center">
+        <div class="g-col-6 g-col-md-4" style="background-color: pink;">.g-col-6 .g-col-md-4</div>
+        <div class="g-col-6 g-col-md-4" style="background-color: mediumaquamarine;">.g-col-6 .g-col-md-4</div>
+        <div class="g-col-6 g-col-md-4" style="background-color: bisque;">.g-col-6 .g-col-md-4</div>
+      </div> -->
+
+      <div class="row mt-4" style="height: 500px">
+        <div class="col-12-trivia" style="background-color: rgb(161, 187, 161)">
+          <h2 class="trivia-heading">Fun Trivia In the Nature</h2>
+
+          <main class="trivia-container">
+            <!-- Example grid-item -->
+            <div class="col-md-6">
+              <section class="trivia-item">
+                <div class="trivia-image d-flex align-items-center">
+                  <img
+                    class="image-bear  mx-auto my-auto"
+                    src="https://finlandholidays.travel/wp-content/uploads/2018/08/slider-2-1045x575.jpg"
+                  />
+                </div>
+  
+                <div class="trivia-text ">
+                  <h5 class="quote">
+                    “If the bear is black, fight back. If the bear is brown, lie
+                    down.”
+                  </h5>
+                  <div class="right-align">
+                    <p class="quote-source">---Wildlife Experts</p>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="col-md-6">
+
+              <section class="trivia-item">
+                <div class="trivia-image d-flex align-items-center">
+                  <img
+                    class="image-giraffe  mx-auto my-auto"
+                    src="https://i.ytimg.com/vi/Q5c1b5dNSnU/maxresdefault.jpg"
+                  />
+                </div>
+                <div class="trivia-text giraffe-text">
+                  <h5>
+                    The giraffe's tongue is typically black, blue or purple and
+                    can measure 18–20 inches long. The darker color is a result of
+                    the extra melanin that is present, so it can protect them to
+                    prevent sun burns.
+                  </h5>
+                </div>
+              </section>
+              </div>
+          </main>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-bar">
+      <p></p>
+    </footer>
+    <footer class="footer">&copy; Bushwalk,Inc.</footer>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+.parent-container {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    height: 30vh;
+    font-size: 30px;
+}
+
+
+.parent {
+    position: relative; 
+    /* position: absolute; */
+    height: 200vh;
+
+}
+
+.first-child {
+    /* position: relative; */
+    position: absolute;
+    /* position: sticky; */
+    position: sticky;
+    /* top: -50px; */
+    left: 350px;
+    /* z-index: -1;  */
+}
+
+.second-child {
+    /* position: relative; */
+    position: sticky;
+    /* top: 10px; */
+    /* left: 50px; */
+}
+
+.third-child {
+    /* Position: sticky; */
+    /* top: 0; */
+    /* right: 25px; */
+}

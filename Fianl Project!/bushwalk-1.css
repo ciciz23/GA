@@ -1,0 +1,218 @@
+.modal-container {
+  border: 2px solid green;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  position: absolute;
+  top: 1%;
+  left: 40%;
+  opacity: 0.6;
+  /* position: fixed; */
+}
+
+.modal-button:hover {
+  background-color: darkcyan;
+}
+
+.background-image {
+  background-image: url(https://www.melbourneplaygrounds.com.au/images/lysterfield-lake-park-embed02.jpg);
+  background-size: cover;
+  width: auto;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 30px;
+}
+
+.info-para {
+  padding: 40px 40px;
+}
+
+.info-title {
+  color: orange;
+}
+
+.Lysterfield-map {
+  background-image: url(https://en-hk.gps-viewer.com/pub/tracks/7e0/ezle/thumbnail.jpg);
+  background-size: cover;
+  /* width: auto; */
+  height: 500px;
+  color: blueviolet;
+  /* margin: auto; */
+  margin-left: 40px;
+  margin-right: 40px;
+  /* padding: 40px 40px; */
+}
+
+.location-map__link {
+  font-size: 30px;
+}
+
+.footer-bar {
+  background-color: rgba(9, 1, 1, 0.629);
+  border-bottom: 5px solid gray;
+  height: 60px;
+  margin-top: 100px;
+}
+
+.footer {
+  background-color: rgba(9, 1, 1, 0.629);
+  color: white;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-image-kinglake {
+  background-image: url(https://www.visitmelbourne.com/-/media/atdw/high-country/things-to-do/nature-and-wildlife/national-parks-and-reserves/e7bf7f0585a878e0266072c05dfa7f16_1600x1200.jpeg?ts=20210615471147);
+  background-size: cover;
+  width: auto;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 30px;
+}
+
+.kinglake-map {
+  background-image: url(https://map.viamichelin.com/map/carte?map=viamichelin&z=10&lat=-37.53444&lon=145.33733&width=550&height=382&format=png&version=latest&layer=background&debug_pattern=.*);
+  background-size: cover;
+  /* width: auto; */
+  height: 500px;
+  color: blueviolet;
+  text-align: center;
+  /* margin: auto; */
+  margin-left: 40px;
+  margin-right: 40px;
+  /* padding: 40px 40px; */
+}
+
+.background-image-Mount-Donna {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5a3bb03b4c326d76de73ddaa/1517948915873-MOTV7NYDVW5DXLMQ3T3W/IMG_4675.jpg?format=2500w);
+  background-size: cover;
+  background-position: 10% 80%;
+  width: auto;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 30px;
+}
+
+.Donna-Buang-map {
+  background-image: url(https://www.mountain-forecast.com/locationmaps/Mount-Donna-Buang.8.gif);
+  background-size: cover;
+  /* width: auto; */
+  height: 500px;
+  color: blueviolet;
+  text-align: end;
+  /* margin: auto; */
+  margin-left: 40px;
+  margin-right: 40px;
+  /* padding: 40px 40px; */
+}
+
+.background-image-Point-Nepean {
+  background-image: url(https://www.theintrepidguide.com/wp-content/uploads/2020/01/Things-to-do-in-Point-Nepean-National-Park-View-from-Fort-Nepean-sunset-1170x780.jpg.webp);
+  background-size: cover;
+  width: auto;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 30px;
+}
+
+.Point-Nepean-map {
+  background-image: url(https://www.chrisandlauratravels.com/wp-content/uploads/2021/09/screenshotPNNP-1024x604.jpeg);
+  background-size: cover;
+  /* width: auto; */
+  height: 500px;
+  color: blueviolet;
+  text-align: end;
+  /* margin: auto; */
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.background-image-cathedral-range {
+  background-image: url(https://www.alittleofftrack.com/wp-content/uploads/2021/02/MG_6069.jpg);
+  background-size: cover;
+  background-position: 50px;
+  background-position: left;
+  width: auto;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 30px;
+}
+
+.cathedral-range-map {
+  background-image: url(https://i0.wp.com/beyondwildplaces.com/wp-content/uploads/2021/12/Cathedral-Ranges-Map.jpg?resize=768%2C1024&ssl=1);
+  background-size: cover;
+  background-position: 0 30%;
+  /* width: auto; */
+  height: 500px;
+  color: blueviolet;
+  /* text-align: center; */
+  /* margin: auto; */
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.background-image-cape-schanck {
+  background-image: url(https://www.parks.vic.gov.au/-/media/project/pv/main/parks/images/places-to-see/mornington-peninsula-national-park/lighthouse-2-cape-schank-mornington-peninsula-national-park-1920x1124.jpg?rev=320a57ed43e345189315515a43764561);
+  background-size: cover;
+  width: auto;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 30px;
+}
+
+.cape-schanck-map {
+  background-image: url(https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ebceafd-8871-4529-b7b1-c83d6f8c13fb_1898x1434.png);
+  background-size: cover;
+  background-position: right bottom;
+  /* This can adjust the area of the image in the background.  */
+  height: 500px;
+  color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.disappear {
+  opacity: 0;
+}

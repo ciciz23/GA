@@ -1,0 +1,434 @@
+/*
+ * Lay this page out - make it responsive, use grid, flex, position and media queries where needed.
+ *
+ * Colors-
+ * Green: #14a96d
+ * White: #fff
+ * Light gray: #f4f5f6
+ * Border gray: #cfd7de
+ * Dark text: #1b1f23
+ * Lighter text: #66727c
+ * Blue for links: #06748a
+ * Blue for hovered links: #033641
+ */
+
+/* Globals */
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.rover-hp-container {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Rover Header */
+
+.rover-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 60px;
+}
+
+.rover-header-image,
+.rover-header-link {
+  display: block;
+}
+
+.rover-header-container a,
+.rover-header-container a:hover,
+.rover-header-container a:active,
+.rover-header-container a:visited {
+  color: #66727c;
+  text-decoration: none;
+}
+
+.rover-header-image {
+  height: 55px;
+  margin-right: 25px;
+}
+
+.rover-header-link {
+  padding: 0 10px;
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .rover-header-link {
+    display: block;
+  }
+}
+
+.rover-header-left,
+.rover-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.rover-header-right-mobile {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .rover-header-right-mobile {
+    display: none;
+  }
+}
+
+.rover-header-right-mobile img {
+  margin: 13px 15px 13px 0;
+  padding: 9px 10px;
+  border: 1px solid #cfd7de;
+  border-radius: 4px;
+  color: #14a96d;
+}
+
+/* Rover Hero Container */
+
+.rover-hero-container {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 800px) {
+  .rover-hero-container {
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    height: 500px;
+  }
+}
+
+.rover-hero-title {
+  color: #66727c;
+  display: none;
+  text-transform: capitalize;
+}
+
+@media (min-width: 800px) {
+  .rover-hero-title {
+    display: inherit;
+    font-size: 45px;
+    margin: 0 0 25px 15px;
+  }
+}
+
+.rover-hero-container p {
+  color: #66727c;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin: 0 15px 25px 15px;
+}
+
+@media (min-width: 800px) {
+  .rover-hero-container p {
+    max-width: 450px;
+  }
+}
+
+.rover-button {
+  background-color: #14a96d;
+  border: 1px solid #0a5738;
+  border-radius: 4px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  transition: 1s ease-in-out;
+  margin: 0 15px;
+  width: calc(100% - 60px);
+}
+
+.rover-button:hover {
+  background-color: #9bf3d0;
+  color: black;
+}
+
+@media (min-width: 800px) {
+  .rover-button {
+    width: 250px;
+  }
+}
+
+.rover-cta {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .rover-cta {
+    display: block;
+  }
+}
+
+.rover-cta-mobile {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .rover-cta-mobile {
+    display: none;
+  }
+}
+
+/* Mobile hero */
+.rover-mobile-hero-container {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
+
+.rover-mobile-hero {
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Swap out desktop and mobile heros, like rover.com does */
+@media (min-width: 800px) {
+  .rover-mobile-hero-container {
+    display: none;
+  }
+}
+
+/* Rover Facts Container */
+
+.rover-middle-section h2 {
+  text-align: center;
+}
+
+.rover-two-boxes-container {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 600px) {
+  .rover-two-boxes-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.rover-fact-indiv {
+  display: flex;
+  align-items: center;
+}
+
+.rover-fact-indiv img {
+  width: 60px;
+  margin-right: 18px;
+}
+
+.rover-cta-box {
+  padding: 0 15px;
+}
+
+.rover-cta-container {
+  border: 1px solid #cfd7de;
+}
+
+.rover-cta-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f5f6;
+  border-bottom: 1px solid #cfd7de;
+}
+
+.rover-cta-header img {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+.rover-cta-header p {
+  margin: 0;
+}
+
+.rover-cta-bottom-container {
+  padding: 20px;
+}
+
+.rover-facts li {
+  padding: 5px;
+}
+
+.rover-cta {
+  margin-top: 20px;
+  border-radius: 2px;
+  background-color: #14a96d;
+  padding: 8px 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.rover-protections {
+  text-align: center;
+}
+
+
+/* Rover action */
+
+.rover-action-shot {
+  background-position: top center; /* note how this is positioned */
+  background-image: url(../img/lady-with-her-dogs.jpg);
+  background-size: cover;
+  height: 525px;
+  margin: 0px;
+  position: relative;
+  z-index: 10;
+}
+
+@media (min-width: 800px) {
+  .rover-action-shot {
+    margin: 60px 30px;
+    height: 600px;
+  }
+}
+
+.rover-action-quote-container {
+  background-color: white;
+  border: 1px solid #cfd7de;
+  border-radius: 5px;
+  line-height: 35px;
+
+}
+
+@media (min-width: 800px) {
+  .rover-action-quote-container {
+    position: absolute;
+    left: 50px;
+    max-width: 35%;
+    top: -50px;
+  }
+}
+
+.rover-quote {
+  text-align: left;
+}
+
+@media (min-width: 800px) {
+  .rover-quote span::before {
+    color: #66727c;
+    content: "- ";
+  }
+}
+
+.rover-action-dash {
+  border: 1px solid #14a96d;
+  content: "";
+  display: block;
+  width: 40px;
+  margin: 20px;
+}
+
+.rover-quote span {
+  display: block;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+@media (min-width: 800px) {
+  .rover-quote span {
+    color: #66727c;
+    font-size: 24px;
+  }
+}
+
+.rover-action-quote-container h2 {
+  padding-bottom: 0px;
+}
+
+.rover-action-quote-container p {
+  color: #1b1f23;
+  line-height: 30px;
+  margin: 20px;
+}
+
+.rover-action-quote-container a {
+  color: #06748a;
+  text-decoration: none;
+}
+
+/* 1-2-3 section */
+.rover-123-item-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 20px 0px 30px 30px;
+
+}
+
+@media (min-width: 800px) {
+  .rover-123-item-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin: 50px 0px 30px 30px;
+  }
+}
+
+.rover-123-container-title {
+  padding: 0 25px;
+  text-align: center;
+}
+
+.rover-123-item {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 0px;
+}
+
+@media (min-width: 800px) {
+  .rover-123-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.rover-123-item img {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+@media (min-width: 800px) {
+  .rover-123-item img {
+    max-height: 70px;
+    max-width: 70px;
+    margin-right: 0;
+  }
+}
+
+.rover-123-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0px 20px;
+}
+
+@media (min-width: 800px) {
+  .rover-123-item-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+.rover-123-item-content p {
+  color: #66727c;
+  line-height: 25px;
+}

@@ -1,0 +1,320 @@
+/* Logo Image:
+https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/07/hiking-logo-design.jpg */
+
+.modal-container {
+  border: 2px solid green;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 180px;
+  position: relative;
+  top: 18%;
+  left: 0;
+  position: fixed;
+  opacity: 0.6;
+}
+
+#main-image {
+  background-image: url(https://www.sydney.com/sites/sydney/files/styles/gallery_full_width/public/2020-06/167228-56_0.webp?itok=ZHU_PYxs);
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.col-12 {
+  color: rgb(46, 65, 46);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+/* .col-12-signup {
+  display: flex;
+  flex-direction: column;
+  width: 110%;
+} */
+
+/* .form-group {
+  margin-bottom: 15px;
+} */
+
+/* Test: Adjust the styles for smaller screens */
+/* Change to a single column on smaller screens */
+/* @media screen and (max-width: 350px) {
+  .sign-up-container {
+    grid-template-columns: 1fr;
+    padding: 5px;
+  }
+} */
+
+.profile-container {
+  display: flex;
+  border: solid 2px rgb(109, 144, 56);
+  border-radius: 10px;
+  width: 108%;
+  margin-left: -20px;
+}
+
+.profile-img {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.profile-text {
+  padding: 0 10px;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+fieldset {
+  padding: 25px;
+}
+
+input {
+  display: block;
+}
+
+#full-name,
+#email,
+#password {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+label,
+legend {
+  margin-left: 20px;
+}
+
+.sign-up-container {
+  /* position: center; */
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(109, 144, 56);
+  border-radius: 10px;
+  width: 108%;
+  margin-left: -20px;
+}
+
+.sign-up-buttom {
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+
+#image-grid {
+  display: flex;
+  justify-content: center;
+}
+
+#site-1 {
+  background-image: url(https://www.melbourneplaygrounds.com.au/images/lysterfield-lake-park-embed02.jpg);
+  background-size: cover;
+  border: solid 5px white;
+  /* couldnt's make gap, so just use border white line.  */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font: italic;
+  font-size: 25px;
+
+  /* padding: 0 20px; */
+}
+/* Testing...... */
+/* @media screen and (min-width: 768px) and (max-width: 911px) {
+  #site-3.col-md-6 {
+    align-self: center;
+    justify-self: center;
+    border: solid 5px black;
+  }
+} */
+
+/* @media screen and (min-width: 768px) and (max-width: 911px) {
+  #site-6.col-md-6 {
+    align-self: center;
+    justify-self: center;
+    border: solid 5px black;
+  }
+} */
+
+#site-2 {
+  background-image: url(https://www.visitmelbourne.com/-/media/atdw/high-country/things-to-do/nature-and-wildlife/national-parks-and-reserves/e7bf7f0585a878e0266072c05dfa7f16_1600x1200.jpeg?ts=20210615471147);
+  background-size: cover;
+  border: solid 5px white;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  font: italic;
+  font-size: 25px;
+}
+
+#site-3 {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5a3bb03b4c326d76de73ddaa/1517948915873-MOTV7NYDVW5DXLMQ3T3W/IMG_4675.jpg?format=2500w);
+  background-size: cover;
+  border: solid 5px white;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  font: italic;
+  font-size: 25px;
+}
+
+#site-4 {
+  background-image: url(https://www.theintrepidguide.com/wp-content/uploads/2020/01/Things-to-do-in-Point-Nepean-National-Park-View-from-Fort-Nepean-sunset-1170x780.jpg.webp);
+  background-size: cover;
+  border: solid 5px white;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  font: italic;
+  font-size: 25px;
+}
+
+#site-5 {
+  background-image: url(https://www.alittleofftrack.com/wp-content/uploads/2021/02/MG_6069.jpg);
+  background-size: cover;
+  border: solid 5px white;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  font: italic;
+  font-size: 25px;
+}
+
+#site-6 {
+  background-image: url(https://www.parks.vic.gov.au/-/media/project/pv/main/parks/images/places-to-see/mornington-peninsula-national-park/lighthouse-2-cape-schank-mornington-peninsula-national-park-1920x1124.jpg?rev=320a57ed43e345189315515a43764561);
+  background-size: cover;
+  border: solid 5px white;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  font: italic;
+  font-size: 25px;
+}
+
+.trivia-heading {
+  /* text-align: left; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.trivia-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding: 0 20px; */
+}
+
+.trivia-item {
+  max-width: 95%;
+  /* Ensure images don't exceed their container */
+}
+
+.trivia-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  /* Max-width didn't set to 100%. This is the reason why the griraffe was overflowing out from the container!!!___S. */
+}
+
+@media screen and (min-width: 960px) {
+  .trivia-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: auto;
+    height: auto;
+  }
+}
+
+.image-bear {
+  /* width: 500px;
+  height: 300px; */
+  /* margin-left: -50px; */
+  /* margin-left: 100px; */
+  width: 100%;
+  height: 300px;
+  /* Set a specific width and height__S */
+}
+
+.right-align {
+  text-align: right;
+}
+
+.quote-source {
+  margin-left: auto;
+  /* Try set auto in stead of a specific margin.   */
+}
+
+.image-giraffe {
+  /* width: 500px;
+  height: 300px; */
+  /* margin-left: 200px; */
+  width: 100%;
+  height: 300px;
+  /* align-items: center; */
+  /* Set a specific width and height__S*/
+}
+
+.trivia-text {
+  padding: 5px;
+}
+
+/* .giraffe-text {
+  margin-left: 150px;
+  margin-right: 40px;
+} */
+
+.footer-bar {
+  background-color: rgba(9, 1, 1, 0.629);
+  border-bottom: 5px solid gray;
+  height: 60px;
+  margin-top: 380px;
+}
+
+.footer {
+  background-color: rgba(9, 1, 1, 0.629);
+  color: white;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 960px) {
+  .footer-bar {
+    margin-top: 10px;
+  }
+}
+
+.show {
+  display: block;
+}
+
+.disappear {
+  opacity: 0;
+}
